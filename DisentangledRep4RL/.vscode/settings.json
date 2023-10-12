@@ -1,0 +1,11 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "${workspaceFolder}/.style.yapf"
+    ],
+    "editor.formatOnSave": true,
+    "isort.check": true
+}

@@ -1,0 +1,12 @@
+rclone -v copy $2 remote:Research/projects/ModularManipulation/MPRL_CORL_2023/results/$1/$2 \
+    --exclude "best_eval.pt" \
+    --exclude "best.pt" \
+    --exclude "buffer/" \
+    --exclude "eval.csv" \
+    --exclude "eval_video/" \
+    --exclude "latest.pt" \
+    --exclude "train.csv" \
+    --exclude "tb/" \
+    --exclude "train.log" \
+    --exclude "wandb/" \
+    --exclude ".hydra/" 

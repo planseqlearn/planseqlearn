@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+wandb/
+exp_local/
+expert_data/
+results/
+disrep4rl.egg-info/
+old_12_22/
+*.mp4
+*.pt
+DAVIS/
